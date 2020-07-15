@@ -39,13 +39,7 @@ variable "azs" {
   type        = list(string)
   default     = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
-
-variable "host_port" {
-}
-
 variable "ec2_name" {
-}
-variable "aws_alb_protocol" {
 }
 
 
